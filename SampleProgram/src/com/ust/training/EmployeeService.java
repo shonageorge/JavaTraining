@@ -3,6 +3,7 @@ package com.ust.training;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class EmployeeService {
@@ -19,5 +20,12 @@ public class EmployeeService {
 		
 		Map<Object, List<Employee>> s= empList.stream().collect(Collectors.groupingBy(m->m.getLocation()));
 		System.out.println(s);
+		
+		 Optional<List<Employee>> checkNull = Optional.ofNullable(empList);
+		 if (checkNull.isPresent()) {
+			 empList.stream().map(m->m.getSalary()+1000).forEach(System.out::println);
+		 }else
+			 System.out.println("Array is Empty");
+	
 	}
 }
