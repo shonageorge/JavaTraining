@@ -1,0 +1,8 @@
+com\ust\userService\userservice\repository\UserRepository.class
+com\ust\userService\userservice\dto\ResponseDto.class
+com\ust\userService\userservice\controller\UserController.class
+com\ust\userService\userservice\dto\LabourDto.class
+com\ust\userService\userservice\model\User.class
+com\ust\userService\userservice\service\UserService.class
+com\ust\userService\userservice\UserServiceApplication.class
+com\ust\userService\userservice\dto\UserDto.class
