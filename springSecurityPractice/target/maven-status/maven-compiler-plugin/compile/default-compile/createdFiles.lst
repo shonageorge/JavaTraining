@@ -1,0 +1,10 @@
+com\ust\springSecurityPractice\springSecurityPractice\controller\StudentController.class
+com\ust\springSecurityPractice\springSecurityPractice\config\SecurityConfig.class
+com\ust\springSecurityPractice\springSecurityPractice\service\StudentService.class
+com\ust\springSecurityPractice\springSecurityPractice\repository\StudentRepository.class
+com\ust\springSecurityPractice\springSecurityPractice\dto\StudentDetails.class
+com\ust\springSecurityPractice\springSecurityPractice\repository\InfoRepository.class
+com\ust\springSecurityPractice\springSecurityPractice\model\StudentTeacherInfo.class
+com\ust\springSecurityPractice\springSecurityPractice\SpringSecurityPracticeApplication.class
+com\ust\springSecurityPractice\springSecurityPractice\config\StudentTeacherInfoService.class
+com\ust\springSecurityPractice\springSecurityPractice\config\StudentTeacherInfoDetails.class
